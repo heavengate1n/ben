@@ -156,8 +156,8 @@ st.session_state["apply_budget_to_forecaster"] = apply_budget
 # -----------------------------------------------------------------------------
 # Financial Forecaster (kept same spirit as your last one)
 # -----------------------------------------------------------------------------
-if app_mode == "📈 Horizion planner":
-    st.title("📈 Horizon planner")
+if app_mode == "📈 Advanced Financial Forecaster — Improved ":
+    st.title("📈 Advanced Financial Forecaster — Improved")
 
     top1, top2, top3 = st.columns([2,1,1])
     with top1:
