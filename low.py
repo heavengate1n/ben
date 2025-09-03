@@ -18,7 +18,7 @@ from typing import Optional, Tuple
 # Page Setup & Global Styles
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Advanced Financial Forecaster + Budget Planner",
+    page_title="Horizon planner",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -156,8 +156,8 @@ st.session_state["apply_budget_to_forecaster"] = apply_budget
 # -----------------------------------------------------------------------------
 # Financial Forecaster (kept same spirit as your last one)
 # -----------------------------------------------------------------------------
-if app_mode == "📈 Financial Forecaster":
-    st.title("📈 Advanced Financial Forecaster — Improved")
+if app_mode == "📈 Horizion planner":
+    st.title("📈 Horizon planner")
 
     top1, top2, top3 = st.columns([2,1,1])
     with top1:
@@ -438,4 +438,5 @@ elif app_mode == "💰 Budget Planner":
             st.markdown("</div>", unsafe_allow_html=True)
 
     st.caption("All calculations are monthly. The suggested investment is a guide — adjust to align with risk tolerance and goals.")
+
 
