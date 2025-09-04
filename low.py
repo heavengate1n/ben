@@ -157,7 +157,7 @@ st.session_state["apply_budget_to_forecaster"] = apply_budget
 # Financial Forecaster (kept same spirit as your last one)
 # -----------------------------------------------------------------------------
 if app_mode == "📈 Financial Forecaster":
-    st.title("📈 Advanced Financial and Budget Forecaster — Improved")
+    st.title("📈 Financial and Budget Forecaster")
 
     top1, top2, top3 = st.columns([2,1,1])
     with top1:
@@ -451,5 +451,6 @@ if app_mode == "💰 Budget Planner":
         st.metric("Total Expenses", f"{C}{total_expenses:,.2f}")
     with col3:
         st.metric("Leftover (Savings Potential)", f"{C}{leftover:,.2f}")
+
 
 
